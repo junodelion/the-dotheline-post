@@ -127,7 +127,7 @@ if (window.location.pathname.endsWith("_article.html")) {
         newComment.classList.add("comment");
 
         newComment.innerHTML = `
-            <h5>${loggedIn}</h5>
+            <h4>${loggedIn}</h4>
             <p class="comment-time"><i>Less than a minute ago</i></p>
             <p>${commentText}</p>
         `;
